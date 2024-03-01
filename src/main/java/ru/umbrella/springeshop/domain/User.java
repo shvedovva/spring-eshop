@@ -26,6 +26,6 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
     @OneToOne(cascade = CascadeType.REMOVE)
-    private Bucket backet;
+    private Bucket bucket;
 
 }
